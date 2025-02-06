@@ -1,0 +1,46 @@
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  
+  .player {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+  }
+  
+  .controls button {
+    background-color: #444;
+    border: none;
+    color: white;
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .controls button:hover {
+    background-color: #555;
+  }
+  
+  button:disabled {
+    background-color: #777;
+  }
+  
+  .info h2 {
+    margin: 0;
+  }
+  
+  .info p {
+    margin: 5px 0;
+  }
+  
